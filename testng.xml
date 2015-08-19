@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+  <test name="Safari Test">
+	<parameter name="browser" value="safari"/>
+    <classes>
+        <class name="com.mentor.tests.ComposeDefaultTest"/>
+        <class name="com.mentor.tests.ComposeVideoLinkTest"/>
+        <class name="com.mentor.tests.ComposeDefQuestionTest"/>
+       	<class name="com.mentor.tests.ComposeVideoLinkTest"/>
+      	<class name="com.mentor.tests.ComposeQuestionImageTest"/>
+        <class name="com.mentor.tests.DeletePostTest"/>
+        <class name="com.mentor.tests.EditProfilePageTest"/>
+        <class name="com.mentor.tests.FeaturedTagsTest"/>
+        <class name="com.mentor.tests.LikeCommentCountTest"/>
+        <class name="com.mentor.tests.LikePostTest"/>
+        <class name="com.mentor.tests.LinkedinSetupProfileTest"/>
+        <class name="com.mentor.tests.LoginTest"/>
+        <class name="com.mentor.tests.LogoutTest"/>
+        <class name="com.mentor.tests.MentorListTest"/>
+        <class name="com.mentor.tests.PostClickTest"/>
+        <class name="com.mentor.tests.ReadingProfilePageTest"/>
+        <class name="com.mentor.tests.ReportPostTest"/>
+        <class name="com.mentor.tests.ScrollHomePageTest"/>
+        <class name="com.mentor.tests.SignUpTest"/>
+        <class name="com.mentor.tests.PostClickTest"/>
+        <class name="com.mentor.tests.BeAMentorTest"/>
+        
+    </classes>
+  </test> <!-- Test -->
+  <test name="Firefox Test">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mentor.tests.ComposeDefaultTest"/>
+      <class name="com.mentor.tests.ComposeVideoLinkTest"/>
+      <class name="com.mentor.tests.ComposeDefQuestionTest"/>
+      <class name="com.mentor.tests.ComposeVideoLinkTest"/>
+      <class name="com.mentor.tests.ComposeQuestionImageTest"/>
+      <class name="com.mentor.tests.DeletePostTest"/>
+      <class name="com.mentor.tests.EditProfilePageTest"/>
+      <class name="com.mentor.tests.FeaturedTagsTest"/>
+      <class name="com.mentor.tests.LikeCommentCountTest"/>
+      <class name="com.mentor.tests.LikePostTest"/>
+      <class name="com.mentor.tests.LinkedinSetupProfileTest"/>
+      <class name="com.mentor.tests.LoginTest"/>
+      <class name="com.mentor.tests.LogoutTest"/>
+      <class name="com.mentor.tests.MentorListTest"/>
+      <class name="com.mentor.tests.PostClickTest"/>
+      <class name="com.mentor.tests.ReadingProfilePageTest"/>
+      <class name="com.mentor.tests.ReportPostTest"/>
+      <class name="com.mentor.tests.ScrollHomePageTest"/>
+      <class name="com.mentor.tests.SignUpTest"/>
+      <class name="com.mentor.tests.PostClickTest"/>
+      <class name="com.mentor.tests.BeAMentorTest"/>
+
+    </classes>
+  </test> <!-- Test -->
+  <test name="Chrome Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.mentor.tests.ComposeDefaultTest"/>
+      <class name="com.mentor.tests.ComposeVideoLinkTest"/>
+      <class name="com.mentor.tests.ComposeDefQuestionTest"/>
+      <class name="com.mentor.tests.ComposeVideoLinkTest"/>
+      <class name="com.mentor.tests.ComposeQuestionImageTest"/>
+      <class name="com.mentor.tests.DeletePostTest"/>
+      <class name="com.mentor.tests.EditProfilePageTest"/>
+      <class name="com.mentor.tests.FeaturedTagsTest"/>
+      <class name="com.mentor.tests.LikeCommentCountTest"/>
+      <class name="com.mentor.tests.LikePostTest"/>
+      <class name="com.mentor.tests.LinkedinSetupProfileTest"/>
+      <class name="com.mentor.tests.LoginTest"/>
+      <class name="com.mentor.tests.LogoutTest"/>
+      <class name="com.mentor.tests.MentorListTest"/>
+      <class name="com.mentor.tests.PostClickTest"/>
+      <class name="com.mentor.tests.ReadingProfilePageTest"/>
+      <class name="com.mentor.tests.ReportPostTest"/>
+      <class name="com.mentor.tests.ScrollHomePageTest"/>
+      <class name="com.mentor.tests.SignUpTest"/>
+      <class name="com.mentor.tests.PostClickTest"/>
+      <class name="com.mentor.tests.BeAMentorTest"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
